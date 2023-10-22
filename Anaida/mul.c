@@ -1,12 +1,11 @@
 #include <stdio.h>
-void main(){
-	float a,b,multiply;
+void main()
+{
+	float a, b, multiply;
 	printf("enter a value");
-	scanf("%f",&a);
+	scanf("%f", &a);
 	printf("enter b value");
 	scanf("%f", &b);
-	multiply=a*b;
-	printf("after mutiply %f",multiply);
-	
-	
+	multiply = a * b;
+	printf("after multiply %f", multiply);
 }
